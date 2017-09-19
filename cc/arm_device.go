@@ -233,6 +233,7 @@ var (
 		"cortex-a53":     "${armCortexA7Cflags}",
 		"cortex-a53.a57": "${armCortexA7Cflags}",
 		"krait":          "${armCortexA15Cflags}",
+		"kryo":          "${armCortexA53Cflags}",
 		"denver":         "${armCortexA15Cflags}",
 	}
 
@@ -250,6 +251,7 @@ var (
 		"cortex-a53":     "${armClangCortexA7Cflags}",
 		"cortex-a53.a57": "${armClangCortexA7Cflags}",
 		"krait":          "${armClangKraitCflags}",
+		"kryo":          "${armClangKryoCflags}",
 		"denver":         "${armClangCortexA15Cflags}",
 	}
 )
