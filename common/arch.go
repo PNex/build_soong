@@ -924,6 +924,7 @@ func decodeMegaDevice() ([]Arch, error) {
 		{"arm", "armv7-a-neon", "krait", []string{"armeabi-v7a"}},
 		{"arm64", "", "cortex-a53", []string{"arm64-v8a"}},
 		{"arm64", "", "denver64", []string{"arm64-v8a"}},
+		{"arm64", "", "kryo", []string{"arm64-v8a"}},
 		{"mips", "mips32-fp", "", []string{"mips"}},
 		{"mips", "mips32r2-fp", "", []string{"mips"}},
 		{"mips", "mips32r2-fp-xburst", "", []string{"mips"}},
